@@ -95,7 +95,44 @@ box-shadow: 0px 13px 4px -10px rgba(0,0,0,0.3);
   opacity: 1 !important;
 }
 
-@media screen and (max-width: 658px) {
+@media (max-width: 768px) {
+  #wrapper {
+    height: auto;
+    padding: 2vh 0;
+  }
+
+  #wish {
+    width: 90%;
+  }
+
+  #wish div {
+    font-size: 40px;
+  }
+
+  #present {
+    width: 200px;
+    height: 150px;
+  }
+
+  #present #top {
+    width: 230px;
+    height: 50px;
+    top: -15px;
+    left: -15px;
+  }
+
+  #present #cat {
+    width: 80%;
+    height: 150px;
+  }
+
+  .img_box {
+    width: 70px;
+  }
+}
+
+
+/* @media screen and (max-width: 658px) {
 
   #present {
     width: 300px;
@@ -106,4 +143,4 @@ box-shadow: 0px 13px 4px -10px rgba(0,0,0,0.3);
     transform: scale(2.5) !important;
   }
 
-}
+} */
